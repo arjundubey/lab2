@@ -44,7 +44,7 @@ class LoginFormStub extends React.Component {
 
 		return (
 
-		<section className="py-xl bg-cover bg-size--cover" style={{ backgroundImage:"url('images/rawpixel-com-557125-unsplash.jpg')" }} >
+		<section className="py-xl bg-cover bg-size--cover" style={{ backgroundImage:"url('')" }} >
         <span className="mask bg-primary alpha-6"></span>
         <div className="container d-flex align-items-center no-padding">
           <div className="col">
