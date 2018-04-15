@@ -32,7 +32,7 @@ class RegisterForm extends React.Component {
 
 		return (
 
-			
+			//this section 
       <section className="py-xl bg-cover bg-size--cover" style={{ backgroundImage:"url('')" }} >
         <span className="mask  alpha-6"></span>
         <div className="container d-flex align-items-center no-padding">
