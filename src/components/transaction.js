@@ -184,16 +184,6 @@ class Transaction extends React.Component {
                                        <div className="single-project-description">
                                           <form ref={ (f) => { this.addForm = f;} } onSubmit={this.addMoney} action="">
 
-                                         
-
-                                          <Cards
-                                                number={number}
-                                                name={name}
-                                                expiry={expiry}
-                                                cvc={cvc}
-                                                focused={focused}
-                                                callback={this.handleCallback}
-                                              />
 
                                                <div className="row mt-3 mb-3">
                                                       <div className="col">
