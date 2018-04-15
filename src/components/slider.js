@@ -22,7 +22,7 @@ class Slider extends React.Component {
 				                            <div className="caption">
 				                          
 				                              <h2>Find experts to create <br/> your next Project.</h2>
-				                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et libero vulputate, sollicitudin enim vitae, varius nisl.</p>
+				                              <p> .</p>
 
 				                              <a href="" className="btn btn-primary">Find Freelancer <i className="fas fa-angle-right"></i></a>
 				                          </div>   
