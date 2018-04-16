@@ -255,7 +255,7 @@ exports.relevant = function(req,res) {
         for(var i=0;i<usrskills.length;i++) {
           usrskills[i] = usrskills[i].trim();
         }
-
+        
 
         
         Project.find(filter)
@@ -286,7 +286,7 @@ exports.relevant = function(req,res) {
                 var skip = perPage * page;
                 var pprojects = [], index = 0;
 
-                console.log(skip);
+                console.log(pprojects);
                
                 for(var i=0;i<projects.length;i++) {
 

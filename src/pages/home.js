@@ -164,7 +164,7 @@ class HomePage extends React.Component {
     var pagination = [],pagination1 = [];
 
 
-    for(var i=1;i<this.state.max;i++) {
+    for(var i=1;i<5;i++) {
       
       cl = ' page-item ';
 
@@ -172,7 +172,7 @@ class HomePage extends React.Component {
         cl += ' active ';  
       pagination.push(<li key={'p'+i} className={cl}><a onClick={this.paginateAll} className="page-link" data-paginate={i} href={i}>{i}</a></li>);
     }
-    for(var i=1;i<this.state.max1;i++) {
+    for(var i=1;i<7;i++) {
       
       cl = ' page-item ';
 
@@ -362,7 +362,7 @@ class HomePage extends React.Component {
                                         
                                           <ul className="project-lists-header clearfix">
                                                   <li className='icon-li'></li>             
-                                                  <li className='desc-li'>briefing</li>             
+                                                  <li className='desc-li'>index</li>             
                                                   <li className='bids-li'>Numbder of Bids</li>             
                                                   <li className='started-li'>workimg for</li>             
                                                   <li className='range-li'>Price input</li>             

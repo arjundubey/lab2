@@ -70,12 +70,12 @@ class LoginFormStub extends React.Component {
                     </div> 
                     <form ref={(f) => {this.form = f;} } onSubmit={this.loginUser} className="form-primary">
                       <div className="form-group">
-                        <input required type="email" className="form-control" name="email" placeholder="Your email" defaultValue="abhin_sh3@yahoo.com" />
+                        <input required type="email" className="form-control" name="email" placeholder="Your email"  />
                       </div>
                       <div className="form-group">
-                        <input type="password" required className="form-control" name="password" placeholder="Password" defaultValue="123" />
+                        <input type="password" required className="form-control" name="password" placeholder="Password" />
                       </div>
-                      <div className="text-right mt-4"><a href="jsx-a11y/href-no-hash" className="text-white">Forgot password?</a></div>
+                      <div className="text-right mt-4"><a href="jsx-a11y/href-no-hash" className="text-white">Forgot password for this?</a></div>
                       <button type="submit" className="btn btn-block btn-lg bg-white mt-4">Login</button>
                     </form>
                   </div>

@@ -144,10 +144,10 @@ class SingleProject extends React.Component {
     var buttonth = <th scope="col">&nbsp;</th>;
       
 
-    /*
+    
     if( this.props.user.id === s.user_id || o.props.guest === true ){
        
-     buttonth = null; 
+    // buttonth = null; 
     form = "";  
     }
 
@@ -158,7 +158,7 @@ class SingleProject extends React.Component {
               <span className="alert-inner--text">You can only bid once !</span>
            
           </div>
-          );*/
+          );
 
     var submitproject = '', finalizeproject = '';
 
