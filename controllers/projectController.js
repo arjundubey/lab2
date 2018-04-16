@@ -255,7 +255,7 @@ exports.relevant = function(req,res) {
         for(var i=0;i<usrskills.length;i++) {
           usrskills[i] = usrskills[i].trim();
         }
-        
+
 
         
         Project.find(filter)
@@ -293,7 +293,7 @@ exports.relevant = function(req,res) {
                    if(i <= skip && skip > 0) {
                     continue; // offset 
                    }
-                  
+                  // change if required
                    
                    // console.log('Pushing @ '+index+" => "+projects[i].name);   
                    pprojects.push(projects[i]);
